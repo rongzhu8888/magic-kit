@@ -90,18 +90,7 @@ public class GeoHashAround {
         }
     }
 
-    private static String calculateAdjacent(String srcHash, String dir) {
-        srcHash = srcHash.toLowerCase();
-        char lastChr = srcHash.charAt(srcHash.length()-1);
-        int a = srcHash.length()%2;
-        String type = (a>0)?"odd":"even";
-        String base = srcHash.substring(0,srcHash.length()-1);
-        if (BORDERS[type][dir].indexOf(lastChr)!=-1){
-            base = calculateAdjacent(base, dir);
-        }
-        base = base + BASE32.toCharArray()[(NEIGHBORS.get(dir+":"+type).indexOf(lastChr))];
-        return base;
-    }
+   
 
     public static void main(String[] args) {
 
