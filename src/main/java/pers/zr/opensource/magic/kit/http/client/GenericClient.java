@@ -11,6 +11,8 @@ import org.apache.http.entity.ContentType;
 import org.apache.http.entity.StringEntity;
 import org.apache.http.impl.client.CloseableHttpClient;
 import org.apache.http.message.BasicNameValuePair;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import pers.zr.opensource.magic.kit.http.*;
 
 import java.io.ByteArrayOutputStream;
@@ -21,8 +23,9 @@ import java.util.List;
 import java.util.Map;
 import java.util.stream.Collectors;
 
-@Log4j2
 public abstract class GenericClient {
+
+    protected final Logger log = LoggerFactory.getLogger(getClass());
 
     protected abstract CloseableHttpClient createHttpClient() throws MagicHttpException;
 
