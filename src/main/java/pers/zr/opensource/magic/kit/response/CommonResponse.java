@@ -12,11 +12,15 @@ public class CommonResponse implements Serializable {
     private int code;
     private String message;
 
+    public CommonResponse() {}
+
+    public CommonResponse(int code, String message) {
+        this.code = code;
+        this.message = message;
+    }
+
     public static CommonResponse buildSuccessResponse() {
-        CommonResponse response = new CommonResponse();
-        response.setCode(CommonResponseCode.SUCCESS);
-        response.setMessage("ok");
-        return response;
+        return new CommonResponse(CommonResponseCode.SUCCESS, "ok");
     }
 
     public int getCode() {
