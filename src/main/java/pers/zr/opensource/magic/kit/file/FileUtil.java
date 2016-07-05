@@ -3,7 +3,7 @@ package pers.zr.opensource.magic.kit.file;
 import java.io.*;
 
 /**
- * Created by peter.zhu on 2016/3/9.
+ * Created by zhurong on 2016/3/9.
  *
  */
 public class FileUtil {

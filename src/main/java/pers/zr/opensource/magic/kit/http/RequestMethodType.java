@@ -1,7 +1,7 @@
 package pers.zr.opensource.magic.kit.http;
 
 /**
- * Created by peter.zhu on 2016/1/18.
+ * Created by zhurong on 2016/1/18.
  *
  */
 public enum RequestMethodType {

@@ -2,7 +2,7 @@ package pers.zr.opensource.magic.kit.hbase;
 
 /**
  *
- * Created by peter.zhu on 2016/1/28.
+ * Created by zhurong on 2016/1/28.
  */
 public class HBaseConfigure {
     private String zookeeperQuorum;

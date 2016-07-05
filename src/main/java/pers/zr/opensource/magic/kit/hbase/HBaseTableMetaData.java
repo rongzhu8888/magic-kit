@@ -2,7 +2,7 @@ package pers.zr.opensource.magic.kit.hbase;
 
 /**
  * HBase表结构元数据
- * Created by peter.zhu on 2016/1/28.
+ * Created by zhurong on 2016/1/28.
  */
 public class HBaseTableMetaData {
 

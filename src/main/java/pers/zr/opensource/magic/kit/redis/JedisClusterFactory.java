@@ -26,7 +26,7 @@ import java.util.regex.Pattern;
  * <code>@Autowired private JedisCluster jedisCluster;</code>
  *</p>
  *
- * @author peter.zhu
+ * @author zhurong
  *
  *
  */

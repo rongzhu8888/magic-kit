@@ -13,7 +13,7 @@ import java.security.Key;
  * secret key length:	128bit, default:	128 bit<br/>
  * mode:	ECB/CBC/PCBC/CTR/CTS/CFB/CFB8 to CFB128/OFB/OBF8 to OFB128<br/>
  * padding:	Nopadding/PKCS5Padding/ISO10126Padding/
- * @author peter.zhu
+ * @author zhurong
  *
  */
 public class AES extends Coder {

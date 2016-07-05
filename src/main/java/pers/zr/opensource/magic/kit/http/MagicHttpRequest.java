@@ -3,7 +3,7 @@ package pers.zr.opensource.magic.kit.http;
 import java.util.Map;
 
 /**
- * Created by peter.zhu on 2016/1/18.
+ * Created by zhurong on 2016/1/18.
  *
  */
 public class MagicHttpRequest {

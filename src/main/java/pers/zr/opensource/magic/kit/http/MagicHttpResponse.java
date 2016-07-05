@@ -26,4 +26,6 @@ public class MagicHttpResponse {
     public String getBodyAsString() {
         return new String(body, Consts.UTF_8);
     }
+
+
 }

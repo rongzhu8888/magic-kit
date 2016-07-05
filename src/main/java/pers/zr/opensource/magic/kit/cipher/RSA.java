@@ -15,7 +15,7 @@ import java.util.Map;
 
 /**
  * RSA非对称加密
- * @author peter.zhu
+ * @author zhurong
  */
 public class RSA extends Coder {
 
