@@ -6,13 +6,12 @@
  * in the LICENSE file. If you have not, see
  * http://www.apache.org/licenses/LICENSE-2.0
  */
-package pers.zr.opensource.magic.kit.geo;
+package pers.zr.opensource.magic.kit.geo.point;
 
 import java.io.Serializable;
 
 /**
- * {@link WGS84Point} encapsulates coordinates on the earths surface.<br>
- * Coordinate projections might end up using this class...
+ * 地球坐标系（国际标准）
  */
 public class WGS84Point implements Serializable {
 	private static final long serialVersionUID = 7457963026513014856L;

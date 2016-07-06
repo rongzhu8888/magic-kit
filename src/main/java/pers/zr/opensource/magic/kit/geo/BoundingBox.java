@@ -8,6 +8,8 @@
  */
 package pers.zr.opensource.magic.kit.geo;
 
+import pers.zr.opensource.magic.kit.geo.point.WGS84Point;
+
 import java.io.Serializable;
 
 public class BoundingBox implements Serializable {

@@ -1,6 +1,6 @@
 package pers.zr.opensource.magic.kit.weixin.menu;
 
-import pers.zr.opensource.dazzle.weixin.WxApiException;
+import pers.zr.opensource.magic.kit.weixin.WxApiException;
 
 import java.util.List;
 
