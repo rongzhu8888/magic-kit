@@ -155,7 +155,7 @@ public class PointUtil {
     }
 
     /**
-     * 计算2点之间距离
+     * 计算2点之间距离（单位m）
      * @param latA
      * @param logA
      * @param latB
@@ -226,11 +226,11 @@ public class PointUtil {
         WGS84Point wgs84Point = new WGS84Point(32.10023, 117.20234);
         GCJ02Point gcj02Point = wgs2GCJ(wgs84Point);
         System.out.println(gcj02Point.toString());
-        wgs84Point = gcj2WGS(gcj02Point);
-        System.out.println(wgs84Point.toString());
+
 
         WGS84Point wgs84Point2 = new WGS84Point(33.20021, 120.92021);
         GCJ02Point gcj02Point2 = wgs2GCJ(wgs84Point2);
+        System.out.println(gcj02Point2.toString());
         System.out.println(distance(wgs84Point.getLatitude(), wgs84Point.getLongitude(), wgs84Point2.getLatitude(), wgs84Point2.getLongitude()));
         System.out.println(distance(gcj02Point.getLatitude(), gcj02Point.getLongitude(), gcj02Point2.getLatitude(), gcj02Point2.getLongitude()));
 
